@@ -1,6 +1,7 @@
 import React from "react";
 import SectionWrapper from "./SectionWrapper";
 import "../assets/css/present.css";
+import { Link } from "react-router-dom";
 function Present() {
   return (
     <SectionWrapper>
@@ -40,6 +41,12 @@ function Present() {
             </div>
           </div>
         </label>
+      </div>
+
+      <div className="flex justify-center">
+        <Link to="/fireworks">
+          <p className="px-7 py-3 bg-customBlue text-white font-medium text-base rounded-full hover:bg-blue-600">Next Page</p>
+        </Link>
       </div>
     </SectionWrapper>
   );
