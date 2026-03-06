@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Present() {
   return (
     <SectionWrapper>
-      <div className="mb-64">
+      <div className="mb-32 md:mb-64">
         <h1 className="absolute -top-[7rem] left-0 right-0 text-center flex items-center justify-center text-xl font-extrabold text-customBlue drop-shadow-lg">Click the box to see your gifts!</h1>
       </div>
       <div className="birthday-gift">
@@ -43,7 +43,7 @@ function Present() {
         </label>
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-16 relative z-50">
         <Link to="/fireworks">
           <p className="px-7 py-3 bg-customBlue text-white font-medium text-base rounded-full hover:bg-blue-600">Next Page</p>
         </Link>
