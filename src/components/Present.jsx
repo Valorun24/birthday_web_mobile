@@ -43,7 +43,7 @@ function Present() {
         </label>
       </div>
 
-      <div className="flex justify-center mt-16 relative z-50">
+      <div className="flex justify-center mt-2 relative z-50">
         <Link to="/fireworks">
           <p className="px-7 py-3 bg-customBlue text-white font-medium text-base rounded-full hover:bg-blue-600">Next Page</p>
         </Link>
